@@ -23,7 +23,7 @@ const Project = (name) => {
     const removeTodo = (todo) => {
         list_of_todos.splice(todo, 1);
     }
-    return {getListOfTodos, addTodo, editTodo, removeTodo};
+    return {project_name, getListOfTodos, addTodo, editTodo, removeTodo};
 }
 
 export{Project};
